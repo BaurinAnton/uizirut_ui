@@ -1,0 +1,10 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    --swiper-theme-color: #e2b319 !important;
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+}

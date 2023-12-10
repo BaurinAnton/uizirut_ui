@@ -1,0 +1,23 @@
+.contact {
+  padding-top: 6.25rem;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  color: #000000;
+  a {
+    color: #000000;
+  }
+  p {
+    margin-top: 1rem;
+  }
+  ul {
+    list-style: disc;
+    padding-left: 1rem;
+    p {
+      padding-left: 1rem;
+    }
+  }
+}

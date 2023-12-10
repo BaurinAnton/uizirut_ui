@@ -1,0 +1,36 @@
+.heroConference {
+  position: relative;
+  background-color: #00000080;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1;
+  padding-top: 9.375rem;
+  padding-bottom: 9.375rem;
+  @media (max-width: 767px) {
+    padding-top: 5.625rem;
+    padding-bottom: 5.625rem;
+  }
+}
+
+.data {
+  color: #ffffff;
+  font-size: 0.9375rem;
+  margin-bottom: 2.5rem;
+}
+.description {
+  max-width: 33rem;
+  color: #ffffff;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  margin-bottom: 2.5rem;
+}
+.button {
+  color: #000000;
+  text-decoration: none;
+  padding: 0.5rem 1.75rem;
+  border: none;
+  background-color: #e2b219;
+  font-size: 0.875rem;
+}

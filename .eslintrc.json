@@ -1,0 +1,14 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["react", "no-unsanitized", "@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "no-console": "error",
+    "no-var": "error",
+    "no-unsanitized/method": "error",
+    "no-unsanitized/property": "error",
+    "react/no-danger": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/ban-ts-comment": "error"
+  }
+}

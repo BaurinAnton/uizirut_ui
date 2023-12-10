@@ -1,0 +1,53 @@
+.countConference {
+  background-color: #e2b219e5;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  position: relative;
+  @media (max-width: 767px) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.backgroundImage {
+  z-index: 0;
+}
+
+.list {
+  position: relative;
+  z-index: 1;
+  list-style: none;
+  @media (min-width: 1281px) {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+  @media (max-width: 1280px) {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.title {
+  margin-bottom: 0.625rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.375rem;
+  text-align: center;
+  color: #000000;
+  white-space: pre-wrap;
+}
+
+.subTitle {
+  max-width: 15rem;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #000000;
+}

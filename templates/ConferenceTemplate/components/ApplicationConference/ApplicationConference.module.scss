@@ -1,0 +1,60 @@
+.applicationConference {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffe5;
+  @media (max-width: 767px) {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+.form {
+  @media (min-width: 1281px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+  @media (max-width: 1280px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  label {
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #000000;
+    margin-bottom: 0.3125rem;
+  }
+  input {
+    padding: 1rem 1.25rem;
+    border: 0.125rem solid #e2b219;
+    background-color: #ffffe5;
+    &::placeholder {
+      font-weight: 400;
+      font-size: 0.9375rem;
+      line-height: 1.25rem;
+      color: #000000;
+    }
+  }
+}
+
+.submit {
+  align-self: self-end;
+  input {
+    background-color: #e2b219;
+  }
+}
+.inputDisabled {
+  input {
+    opacity: 0.6;
+  }
+}

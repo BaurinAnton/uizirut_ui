@@ -1,0 +1,27 @@
+.itemPrograms {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  border-top: 0.125rem solid #3c3c3c;
+  &:nth-last-of-type(1) {
+    border-bottom: 0.125rem solid #3c3c3c;
+  }
+  @media (max-width: 767px) {
+    grid-template-columns: 2fr 3fr;
+  }
+}
+
+.timeProgram {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #000000;
+}
+
+.nameProgram {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #000000;
+}

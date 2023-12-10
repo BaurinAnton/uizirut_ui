@@ -1,0 +1,1 @@
+export { ConferencesTemplate } from "./ConferencesTemplate";

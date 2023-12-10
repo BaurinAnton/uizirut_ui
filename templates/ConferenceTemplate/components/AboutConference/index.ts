@@ -1,0 +1,1 @@
+export { AboutConference } from "./AboutConference";

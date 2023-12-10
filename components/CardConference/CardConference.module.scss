@@ -1,0 +1,30 @@
+.card {
+  text-decoration: none;
+  transition-duration: 200ms;
+  &:hover {
+    transform: scale(0.98);
+  }
+  h3 {
+    font-weight: 400;
+  }
+}
+
+.title {
+  margin-top: 0.4375rem;
+  color: #000000;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+.date {
+  margin-top: 0.4375rem;
+  color: #000000;
+  font-size: 0.75rem;
+}
+
+.picture {
+  width: 100%;
+  height: 12.5rem;
+  object-fit: cover;
+  object-position: center;
+}

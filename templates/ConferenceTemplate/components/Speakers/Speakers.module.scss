@@ -1,0 +1,56 @@
+.speakers {
+  background-color: #ffffe5;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  @media (max-width: 767px) {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+.h3 {
+  max-width: 21.75rem;
+}
+
+.listSpeakers {
+  list-style: none;
+  @media (min-width: 1281px) {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+  @media (max-width: 1280px) {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.itemSpeaker {
+  text-align: center;
+}
+
+.pictureSpeaker {
+  border-radius: 50%;
+  margin-bottom: 1.875rem;
+}
+
+.titleSpeaker {
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0.3125rem;
+}
+
+.subTitleSpeaker {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #000000;
+}

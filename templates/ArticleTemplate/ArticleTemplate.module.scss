@@ -1,0 +1,38 @@
+.wrapper {
+  padding-top: 6.25rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  color: #000000;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #000000;
+  a {
+    color: #000000;
+  }
+  p {
+    margin-top: 1rem;
+  }
+}
+
+.link {
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5625rem;
+  color: #000000;
+  text-decoration: none;
+  background-color: #e2b219;
+  transition-duration: 200ms;
+  margin-top: 2rem;
+  &:hover {
+    transform: scale(0.98);
+  }
+}
