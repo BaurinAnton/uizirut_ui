@@ -3,11 +3,8 @@ name: building-with-pr
 on:
   pull_request:
     branches: [ "dev", "main" ]
-  push:
-    branches: [ "feature/ci" ]
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
     steps:
