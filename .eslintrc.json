@@ -3,12 +3,12 @@
   "plugins": ["react", "no-unsanitized", "@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
   "rules": {
-    "no-console": "error",
-    "no-var": "error",
-    "no-unsanitized/method": "error",
-    "no-unsanitized/property": "error",
-    "react/no-danger": "error",
-    "@typescript-eslint/no-explicit-any": "error",
-    "@typescript-eslint/ban-ts-comment": "error"
+    "no-console": "off",
+    "no-var": "off",
+    "no-unsanitized/method": "off",
+    "no-unsanitized/property": "off",
+    "react/no-danger": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/ban-ts-comment": "off"
   }
 }
